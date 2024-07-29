@@ -1,0 +1,92 @@
+.DiaryEditor {
+  border: 1px solid gray;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.DiaryEditor input,
+textarea {
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px;
+}
+
+.DiaryEditor textarea {
+  height: 150px;
+}
+
+.DiaryEditor select {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.DiaryEditor button {
+  width: 500px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background: #b34d5f;
+  border-radius: 15px;
+}
+
+.editorbutton {
+  width: 70px;
+  height: 30px;
+  background: #f2cfd5;
+
+  border-radius: 22px;
+}
+
+/* list */
+
+.DiaryList {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* item */
+
+.DiaryItem {
+  background-color: rgb(240, 240, 240);
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.DiaryItem .info_diary {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.DiaryItem .date {
+  color: gray;
+}
+
+.DiaryItem .content {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.review_title {
+  width: 98px;
+  height: 46px;
+
+  margin-left: 50px;
+  margin-top: 20px;
+
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+
+  color: #873856;
+}

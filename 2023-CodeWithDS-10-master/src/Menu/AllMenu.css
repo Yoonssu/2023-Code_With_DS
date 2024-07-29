@@ -1,0 +1,43 @@
+@media all {
+    div.all_list > ul {
+        max-width: 1795px   ;
+        place-items: center;
+        gap: 70px 0px;
+        margin-top: 30px;
+        position: relative;
+        
+    }
+    
+    div.all_list > ul > li {
+        width: 150px;
+        float: left;
+        margin: 30px;
+        list-style: none;
+    }
+    
+    div.all_list > ul > li > a {
+        text-decoration: none;
+        position: relative;
+    }
+    
+    div.all_list > ul > li > a >dl > dt {
+        height: 130px;
+    }
+    
+    div.all_list > ul > li > a >dl > dt > img {
+        border-radius: 25px;
+        border: 1px solid #707070;
+    }
+    
+    div.all_list > ul > li > a> dl > dd {
+        font-size: 16px;
+        color: black;
+        padding-top: 16px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0;
+    }
+
+}

@@ -1,0 +1,97 @@
+/*회원가입 페이지 */
+.signup-container {
+  margin-top: 150px;
+  font-family: "Nanum Gothic";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 이미지 */
+.logo_img_signup {
+  display: block;
+  top: 266px;
+
+  width: 379px;
+  height: 101px;
+}
+
+.mail_img {
+  width: 44px;
+  height: 44px;
+  vertical-align: middle;
+  margin-right: 1px;
+}
+
+.pwd_img {
+  width: 44px;
+  height: 44px;
+  vertical-align: middle;
+  margin-right: 1px;
+}
+.name_img {
+  width: 44px;
+  height: 44px;
+  vertical-align: middle;
+  margin-right: 1px;
+}
+
+/* input 태그*/
+.signup_id {
+  position: relative;
+  width: 447px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.signup_pwd {
+  width: 447px;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.signup_confirmPwd {
+  width: 447px;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.signup_name {
+  width: 447px;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/* 중복 버튼 */
+.duplication_dutton {
+  vertical-align: middle;
+  margin-left: 2px;
+
+  width: 80px;
+  height: 30px;
+
+  background: #873856 0% 0% no-repeat padding-box;
+  border-radius: 38px;
+  color: white;
+}
+
+/* 회원가입 버튼 */
+
+.signup_button_2 {
+  display: block;
+  width: 500px;
+  height: 40px;
+
+  background: var(--unnamed-color-b34d5f) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-707070);
+  background: #b34d5f 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+
+  font: normal normal normal 25px/42px Malgun Gothic;
+
+  color: white;
+}

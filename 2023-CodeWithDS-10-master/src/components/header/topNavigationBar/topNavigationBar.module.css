@@ -1,0 +1,244 @@
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+}
+
+.inner .logo {
+  width: 124px;
+  height: 38px;
+  margin-right: 30px;
+}
+
+.inner .logo img {
+  width: 124px;
+  height: 38px;
+}
+
+.input_wrap {
+  position: relative;
+  width: 400px;
+  height: 46px;
+}
+
+.input_wrap input {
+  width: 400px;
+  height: 46px;
+  border: 2px solid #19ce60;
+  border-radius: 50px;
+  padding: 13px 22px;
+  font-size: 16px;
+  line-height: 20px;
+  outline: none;
+}
+
+.input_wrap input::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  color: #767676;
+}
+
+.input_wrap img {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 19px;
+  height: 19px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.shopping_cart,
+.mypage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shopping_cart {
+  width: 50px;
+  height: 50px;
+}
+
+.shopping_cart .new_shopping_cart {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  right: 0;
+  background-color: #eb5757;
+  border-radius: 50%;
+}
+
+.shopping_cart .new_shopping_cart p {
+  position: relative;
+  top: 50%;
+  left: 45%;
+  transform: translate(-10%, -45%);
+  background: transparent;
+  font-size: 12px;
+}
+
+.mypage {
+  width: 56px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.shopping_cart img {
+  width: 32px;
+  height: 32px;
+}
+
+.shopping_cart span,
+.mypage span {
+  font-size: 12px;
+  line-height: 14px;
+  color: #767676;
+}
+
+.mypage img {
+  width: 50px;
+  height: 32px;
+}
+
+@media (max-width: 768px) {
+  .input_wrap {
+    display: none;
+  }
+}
+
+@media all {
+  .HeaderArea {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #707070
+  }
+  
+  .TopArea {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      height: 140px;
+  }
+      .TopWrap {
+        width: 100%;
+        display: flex;
+      }
+  
+      .Title {
+          position: relative;
+          width: 50%;
+          height: 100%;
+      }
+  
+      .Title > a >img {
+          padding-left: 16px;
+          padding-bottom: 2px;
+          padding-top: 59px;
+      }
+  
+      .App_list {
+          position: relative;
+          width: 50%;
+          height: 100%;
+      }
+  
+          .AppWrap {
+              width: 100%;
+              position: relative;
+              display: inline-block;
+              justify-content: flex-end;
+              align-items: flex-end;
+          }
+  
+              .LogArea {
+                  display: flex;
+                  width: 199px;
+                  height: 55px;
+                  padding-top: 78px;
+                  padding-bottom: 7px;
+                  padding-right: 15px;
+                  font-size: 16px;
+              }
+  
+              .LogArea::after {
+                  content: '';
+                  width: 1px;
+                  height: 55px;
+                  border-color: #aaaaaa;
+  
+              }
+  
+              .LogArea > img {
+                  padding-top: 4.49px;
+                  padding-left: 4.49px;
+                  padding-bottom: 4.56px;
+                  padding-right: 3px;
+              }
+  
+              .LogArea > a.nick  {
+                  padding-top: 17px;
+                  padding-bottom: 17px;
+                  padding-right: 5px;
+                  font-weight: bold;
+                  text-decoration: none;
+                  color: black;
+                  cursor: default;
+              }
+  
+              .LogArea > span {
+                  padding-top: 17px;
+                  padding-bottom: 17px;
+              }
+  
+              .LogArea > a.btn_login {
+                  padding-top: 17px;
+                  padding-bottom: 17px;
+                  padding-left: 5px;
+                  color: black;
+              }
+  
+              .myPage {
+                  padding-top: 92px;
+                  padding-bottom: 21px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  font-size: 18px;
+                  font-weight: bold;
+              }
+  
+              .myPage > a {
+                  color: #505050;
+                  text-decoration: none;
+              }
+  
+              .Cart {
+                  padding-top: 85px;
+                  padding-bottom: 15px;
+                  padding-right: 16px;
+                  padding-left: 15px;
+              }
+  
+              .Cart > img {
+                  padding-top: 42px;
+              }
+          }
+      
+  
+

@@ -1,0 +1,27 @@
+.modal {
+    width: 970px;
+    height: 250px;
+    margin: 411px 475px;
+    border: 3px solid #873856;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.content {
+    .ModalPortal > div {
+        width: 100%;
+        height: 100%;
+        padding-top: 102px;
+        padding-bottom: 94px;
+        border-color: transparent;
+    }
+    
+    .ModalPortal > div > span {
+        width: 505px;
+        height: 54px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #707070;
+        margin: 102px 246px 94px 219px;;
+    }
+}

@@ -1,0 +1,149 @@
+.info {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 140px;
+  height: 46px;
+
+  font: normal normal bold 35px/46px Malgun Gothic;
+
+  color: #873856;
+}
+
+.user_info_table {
+  margin-left: 50px;
+  border-collapse: collapse; /* 선 제거를 위해 collapse로 설정 */
+
+  width: 1400px;
+}
+
+.user_info_table th,
+.user_info_table td {
+  padding: 15px 20px;
+  border-right: none; /* 세로선 제거 */
+  border-bottom: 1px solid #ddd; /* 가로선만 보이게 설정 */
+}
+
+.user_info_table .user_info_label {
+  background-color: rgb(241, 238, 238);
+}
+
+.id_container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.id {
+  margin-right: 100px;
+
+  text-align: left;
+  font: normal normal bold 16px/21px Malgun Gothic;
+  color: #000000;
+}
+
+.id_value {
+  text-align: left;
+  font: normal normal 16px/21px Malgun Gothic;
+}
+
+.name_container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.name {
+  /* Layout Properties */
+  margin-right: 100px;
+
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 16px/21px Malgun Gothic;
+  color: #000000;
+}
+
+.name_value {
+  text-align: left;
+  font: normal normal 16px/21px Malgun Gothic;
+  margin-right: 100px;
+}
+
+.pwd_container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.pwd {
+  margin-right: 100px;
+
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 16px/21px Malgun Gothic;
+  color: #000000;
+}
+
+.pwd_value {
+  text-align: left;
+  font: normal normal 16px/21px Malgun Gothic;
+  margin-right: 100px;
+}
+
+.bye_button {
+  width: 120px;
+  height: 30px;
+  margin-left: 1000px;
+
+  border-radius: 7px;
+  background: #873856 0% 0% no-repeat padding-box;
+
+  color: white;
+}
+
+.order_history {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 140px;
+  height: 46px;
+  font: normal normal bold 35px/46px Malgun Gothic;
+  color: #873856;
+}
+
+.order_history_info table {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  width: 1400px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order_history_info th,
+.order_history_info td {
+  padding: 15px 20px;
+  border-right: none; /* 세로선 제거 */
+  border-bottom: 1px solid #ddd; /* 가로선만 표시 */
+}
+
+/* 회원정보 가로간격조정*/
+
+.user_info_table .user_info_label {
+  width: 300px;
+}
+
+.user_info_table .user_info_value {
+  width: 700px;
+}
+
+/* 주문내역 가로간격조정*/
+
+.order_history_info .order_date {
+  width: 300px;
+}
+
+.order_history_info .order_menu {
+  width: 700px;
+}
